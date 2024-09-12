@@ -1,0 +1,167 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #fff;
+    color: #333;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+}
+header{
+    display: block;
+    justify-content: center;
+    text-align: center;
+    font-weight: bold;
+}
+.container{
+    width: 100%;
+    max-width: 1200px; /* Optional: set a max-width for readability on large screens */
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+.content{
+    padding: 5px;
+}
+a{
+    text-decoration: none;
+    color: #000000;
+    font-weight: bolder;
+    font-size: 1.5rem;
+}
+header a:hover{
+    color: rgb(40, 40, 255);
+    text-decoration:underline;
+}
+.about{
+    margin: 20px;
+}
+.aboutme{
+    margin-top: 50px;
+    text-shadow: #333;
+    color: #c9c9c9;
+    letter-spacing: 2px;
+}
+p{
+    margin-top: 10px;
+    font-weight: normal;
+
+}
+.Skills{
+    margin: 20px;
+    letter-spacing: 3px;
+    color: #c9c9c9;;
+}
+.Technical_Skills{
+    margin: 20px;
+    letter-spacing: 3px;
+    font-weight: bolder;
+    color: #c9c9c9;
+
+}
+ul{
+    list-style-type: disc;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+ul li{
+    margin: 20px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+h3{
+    margin: 20px;
+    color: #c9c9c9;
+    letter-spacing: 2px;
+}
+.socialmedia{
+    margin-top: auto;
+    text-align: center;
+    padding: 20px;
+    border-top: 1px solid #ccc; 
+}
+
+.socialmedia a{
+    margin: 0 12px;
+    font-size: 20px;
+    text-decoration: none;
+    color: #333;
+    transition: background-color 0.5s ease, color 0.5s ease;
+}
+
+.fa-facebook{
+    background: #3B5998;
+    color: white;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.fa-instagram{
+    background: #E4405F;
+    color: white;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.fa-github {
+    background: #ffffff;
+}
+.socialmedia a:hover{
+    background-color: #fff; 
+    color: #333; 
+    
+}
+
+.fa-facebook:hover{
+    background-color: #2d4373; 
+    color: white;
+}
+
+.fa-instagram:hover{
+    background-color: #c13584;
+}
+.fa-github:hover{
+    background-color: #ff0000;
+}
+
+/*a{
+    color: #000000;
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: 300;
+    
+}
+header a:hover{
+    color: rgb(43, 43, 240);
+}
+.about{
+    margin-top: 30px;
+}
+.aboutme{
+    margin-top: 20px;
+    color: rgb(173, 185, 185);
+    margin-left: 15px;
+}
+p {
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+ul {
+    list-style-type: disc;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
